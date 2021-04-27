@@ -1,2 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+  font-family: "Muli", Sans-Serif;
+  height: 100vh;
+  background-image: url(https://i.postimg.cc/3xHt2g6h/fadilah-n-imani-2-Hk-Xc-DPn-Gh4-unsplash.jpg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h3 {
+  font-size: 44px;
+  padding-top: 70px;
+}
+
+p {
+  font-size: 26px;
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+#button-rock,
+#button-paper,
+#button-scissors {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 28px;
+  background-color: none;
+  border-radius: 15px;
+}
+
+#messages {
+  text-align: center;
+  font-size: 26px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTs7O0VBR0Usc0JBQXNCO0FDRHhCOztBRElBO0VBQ0UsK0JBVDRCO0VBVTVCLGFBQWE7RUFFYixpR0FBaUc7RUFDakcsZ0NBQWdDO0VBQ2hDLDRCQUE0QjtFQUM1QixzQkFBc0I7RUFDdEIsNEJBQTRCO0FDRjlCOztBREtBO0VBQ0UsZUFBZTtFQUNmLGlCQUFpQjtBQ0ZuQjs7QURLQTtFQUNFLGVBQWU7QUNGakI7O0FES0E7O0VBRUUsa0JBQWtCO0FDRnBCOztBREtBO0VBQ0UsYUFBYTtFQUNiLDZCQUE2QjtFQUM3QixvQkFBb0I7QUNGdEI7O0FES0E7OztFQUdFLFlBQVk7RUFDWiw2QkFBNkI7RUFDN0IsYUFBYTtFQUNiLGVBQWU7RUFDZixzQkFBc0I7RUFDdEIsbUJBQW1CO0FDRnJCOztBREtBO0VBQ0Usa0JBQWtCO0VBQ2xCLGVBQWU7QUNGakIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

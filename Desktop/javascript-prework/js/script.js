@@ -72,7 +72,6 @@ function displayResult(argPlayerMove, argComputerMove) {
   printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 }
 
-console.log({buttonPaper})
 
 // buttonTest && buttonTest.addEventListener('click', function(){ buttonClicked('Guzik TEST'); });
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
