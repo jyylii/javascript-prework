@@ -14,26 +14,26 @@ const buttonClicked = function(playerMove) {
   displayResult(playerMove, computerMove);
 }
 
-function getMoveName(argMoveId) {
-  console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
-  if (argMoveId === 1) return 'kamień';
-  else if (argMoveId === 2) return 'papier';
-  else if (argMoveId === 3) return 'nożyce';
+function getMoveName(MoveId) {
+  console.log('wywołano funkcję getMoveName z argumentem: ' + MoveId);
+  if (MoveId === 1) return 'kamień';
+  else if (MoveId === 2) return 'papier';
+  else if (MoveId === 3) return 'nożyce';
 }
 
 
-function displayResult(argPlayerMove, argComputerMove) {
-  console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
-  if ((argPlayerMove == 'papier' && argComputerMove == 'kamień') || (argPlayerMove == 'kamień' && argComputerMove == 'nożyce') || (argPlayerMove == 'nożyce' && argComputerMove == 'papier')) {
+function displayResult(PlayerMove, ComputerMove) {
+  console.log('wywołano funkcję displayResults z argumentami: ' + PlayerMove + ', ' + ComputerMove);
+  if ((PlayerMove == 'papier' && ComputerMove == 'kamień') || (PlayerMove == 'kamień' && ComputerMove == 'nożyce') || (PlayerMove == 'nożyce' && ComputerMove == 'papier')) {
     printMessage('Wygrywasz!');
   } 
-  else if (argPlayerMove == argComputerMove) {
+  else if (PlayerMove == ComputerMove) {
     printMessage('Remis');
   }
   else {
     printMessage('Przegrywasz :(');
   }
-  printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
+  printMessage('Zagrałem ' + ComputerMove + ', a Ty ' + PlayerMove);
 }
 
 
