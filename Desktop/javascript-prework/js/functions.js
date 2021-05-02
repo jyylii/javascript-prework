@@ -1,3 +1,5 @@
+'use strict';
+
 function printMessage(msg){
 	var div = document.createElement('div');
 	div.innerHTML = msg;

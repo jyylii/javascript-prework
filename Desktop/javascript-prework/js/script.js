@@ -1,3 +1,4 @@
+'use strict';
 
 const buttonRock = document.getElementById('button-rock');
 const buttonPaper = document.getElementById('button-paper');
